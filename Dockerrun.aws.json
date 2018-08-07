@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "lupin92/docker",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "5000"
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}
